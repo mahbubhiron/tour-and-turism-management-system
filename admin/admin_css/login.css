@@ -1,0 +1,161 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#main{
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	/*background: #A52A2A;*/
+}
+#main_div{
+	/*background: #A52A2A;*/
+	float: left;
+	overflow: hidden;
+	width: 90%;
+	height: 800px;
+	margin-left: 5%;
+	box-shadow: -5px 20px 10px 5px black;
+}
+#header{
+	width: 100%;
+	background: white;
+	float: left;
+	overflow: hidden;
+	box-shadow: 0px 10px 15px #87CEFA;
+}
+#header h3{
+	margin-left: 10%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	color: 	#00BFFF;
+	font-weight: 700px;
+	font-size: 40px;
+	font-family: 'Beth Ellen';
+}
+#from_div{
+	margin-left: 30%;
+	margin-top: 100px;
+	float: left;
+	overflow: hidden;
+	background: #9999;
+	width: 30%;
+	box-shadow: 20px 20px 15px #000;
+	border: solid;
+	border-color: #1E90FF;
+}
+#from_header{
+	margin: auto;
+	margin-top: 0px;
+	float: left;
+	overflow: hidden;
+	*background: #999999;
+	width: 100%;
+}
+#from_header h3{
+	text-transform: uppercase;
+	color: green;
+	margin-left: 10px;
+	text-shadow: 1px 3px 3px #ff0;
+	font-size: 40px;
+	font-weight: 800;
+	margin-left: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#container{
+	float: left;
+	overflow: hidden;
+	background: white;
+	width: 100%;
+}
+#login_logo{
+	margin-left: 1px;
+	margin-top: 1px;
+	float: left;
+	overflow: hidden;
+	width: 40%;
+}
+#login_logo img{
+	background: #000;
+	width: 80%;
+}
+#from_input_box{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin: center;
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	height: 240px;
+	background: white;
+}
+fieldset{
+	border: none;
+}
+.name_input input{
+	width: 90%;
+	height: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+	/*box-shadow: 2px 3px 5px #DC143C;*/
+}
+.pass_input input{
+	width: 90%;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	/*box-shadow: 2px 3px 5px #DC143C;*/
+}
+.remember {
+	margin-top: 0px;
+	margin-left: 10px;
+	float: left;
+	overflow: hidden;
+}
+
+input[type="text"],input[type="password"]{
+	width: 80%;
+	height: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px
+	font-size: 20px;
+	border:1px solid #000;
+	padding-left: 25px;
+}
+input{
+	margin-top: 20px;
+}
+.submit_input input{
+	width: 30%;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 61%;
+	background: 	#1E90FF;
+	box-shadow: 2px 3px 5px #DC143C;
+}
+#from_botom{
+	margin: auto;
+	margin-top: 0px;
+	float: left;
+	overflow: hidden;
+	background: #999999;
+	width: 100%;
+}
+#from_botom p{
+	margin-top: 20px;
+	margin-left: 10%;
+}
+.cust{
+	position: absolute;
+	background: white;
+	margin-top: 19px;
+	margin-left: 12px;
+}
+.cust1{
+	position: absolute;
+	background: white;
+	margin-top: 35px;
+	margin-left: 12px;
+}

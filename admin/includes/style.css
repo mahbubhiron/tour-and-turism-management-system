@@ -1,0 +1,41 @@
+.bg_model{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.model_content{
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border-radius: 4px;
+  text-align: right;
+  padding: 40px;
+  position: relative;
+}
+.profile_content{
+  text-align: center;
+  margin-top: 60px;
+}
+.profile_content tr td{
+  text-align: left;
+}
+.close{
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 50px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+
+
+
+
+
